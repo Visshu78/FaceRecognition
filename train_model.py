@@ -5,7 +5,7 @@ import numpy as np
 def train_face_recognizer():
     # Use absolute path for Dataset directory
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    dataset_dir = os.path.join(script_dir, "Dataset")
+    dataset_dir = script_dir+"/ Dataset/"
     
     # Debugging outputs
     print("Script Directory:", script_dir)
